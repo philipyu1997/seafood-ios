@@ -12,6 +12,7 @@
 		72B42D3B22D8255A00DA9958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B42D3922D8255A00DA9958 /* Main.storyboard */; };
 		72B42D3D22D8255C00DA9958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B42D3C22D8255C00DA9958 /* Assets.xcassets */; };
 		72B42D4022D8255C00DA9958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B42D3E22D8255C00DA9958 /* LaunchScreen.storyboard */; };
+		72B42D4C22D8259F00DA9958 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 72B42D4B22D8259F00DA9958 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		72B42D3C22D8255C00DA9958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72B42D3F22D8255C00DA9958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B42D4122D8255C00DA9958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B42D4B22D8259F00DA9958 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,47 @@
 		72B42D3422D8255A00DA9958 /* SeaFood */ = {
 			isa = PBXGroup;
 			children = (
-				72B42D3522D8255A00DA9958 /* AppDelegate.swift */,
-				72B42D3722D8255A00DA9958 /* ViewController.swift */,
-				72B42D3922D8255A00DA9958 /* Main.storyboard */,
-				72B42D3C22D8255C00DA9958 /* Assets.xcassets */,
-				72B42D3E22D8255C00DA9958 /* LaunchScreen.storyboard */,
-				72B42D4122D8255C00DA9958 /* Info.plist */,
+				72B42D4922D8257C00DA9958 /* Controller */,
+				72B42D4722D8256F00DA9958 /* Model */,
+				72B42D4A22D8258200DA9958 /* Supporting Files */,
+				72B42D4822D8257800DA9958 /* View */,
 			);
 			path = SeaFood;
+			sourceTree = "<group>";
+		};
+		72B42D4722D8256F00DA9958 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72B42D4B22D8259F00DA9958 /* Inceptionv3.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72B42D4822D8257800DA9958 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72B42D3E22D8255C00DA9958 /* LaunchScreen.storyboard */,
+				72B42D3922D8255A00DA9958 /* Main.storyboard */,
+				72B42D3C22D8255C00DA9958 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72B42D4922D8257C00DA9958 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				72B42D3522D8255A00DA9958 /* AppDelegate.swift */,
+				72B42D3722D8255A00DA9958 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		72B42D4A22D8258200DA9958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72B42D4122D8255C00DA9958 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72B42D3822D8255A00DA9958 /* ViewController.swift in Sources */,
+				72B42D4C22D8259F00DA9958 /* Inceptionv3.mlmodel in Sources */,
 				72B42D3622D8255A00DA9958 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E7FB8SA95;
-				INFOPLIST_FILE = SeaFood/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SeaFood/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E7FB8SA95;
-				INFOPLIST_FILE = SeaFood/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SeaFood/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
