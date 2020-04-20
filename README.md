@@ -4,8 +4,7 @@
 1. [Overview](#Overview)
 2. [Product Spec](#Product-Spec)
 3. [App Walkthrough](#App-Walkthrough)
-4. [Open-Source libraries used](#Open-Source-libraries-used)
-5. [Credits](#Credits)
+4. [Credits](#Credits)
 
 ## Overview
 ### Description
