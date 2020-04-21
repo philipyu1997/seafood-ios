@@ -61,8 +61,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             if let firstResult = results.first {
                 if firstResult.identifier.contains("hotdog") {
                     self.navigationItem.title = "Hotdog!"
+                    self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+                    self.navigationController?.navigationBar.barTintColor = .green
+                    self.navigationController?.navigationBar.tintColor = .white
                 } else {
-                    self.navigationItem.title = "Not Hotdog!"
+                    self.navigationItem.title = "Not Hotdog!" // nav bar title
+                    self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white] // nav bar title text color
+                    self.navigationController?.navigationBar.barTintColor = .red // nav bar color
+                    self.navigationController?.navigationBar.tintColor = .white // nav bar buttons
                 }
             }
         }
