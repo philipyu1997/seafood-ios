@@ -26,7 +26,7 @@ Click below to watch Silicon Valley clip of the Not Hotdog app:
 
 Here's a GIF of how the app works:
 
-<img src="ADD_GIF_LINK" width=250><br>
+<img src="https://i.imgur.com/CtNLxiL.gif" width=250><br>
 
 ## Credits
 
