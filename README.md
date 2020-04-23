@@ -9,7 +9,7 @@
 ## Overview
 ### Description
 
-SeaFood is an image recognition app that classifies whether an image taken or selected is a hot dog or not. This app is a recreation of the "[Not Hotdog](https://apps.apple.com/us/app/not-hotdog/id1212457521)" app originally created by the character Jian-Yang from season 4 of the comedic television series, [Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)#Cast_and_characters).
+SeeFood is an image recognition app that determines whether an image taken or selected is a hot dog or not using the [Inceptionv3](https://github.com/tensorflow/models/tree/master/research/inception) model from Google's Inception Convolutional Neural Network. This app is a recreation of the [Not Hotdog](https://apps.apple.com/us/app/not-hotdog/id1212457521) app originally created by the character Jian-Yang from season 4 of the comedic television series, [Silicon Valley](https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)#Cast_and_characters).
 
 ### Silicon Valley Clip
 
