@@ -1,4 +1,4 @@
-# SeaFood
+# SeeFood
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -26,8 +26,8 @@ Click below to watch Silicon Valley clip of the Not Hotdog app:
 
 Here's a GIF of how the app works:
 
-<img src="https://user-images.githubusercontent.com/35745973/81493061-fa71f500-9251-11ea-8c4c-be034f64f3b4.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/35745973/81493061-fa71f500-9251-11ea-8c4c-be034f64f3b4.gif" width=250>
 
 ## Credits
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+>This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/).
