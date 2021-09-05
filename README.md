@@ -13,7 +13,7 @@ SeeFood is an image recognition app that determines whether an image is a hot do
 
 ### Silicon Valley Clip
 
-Click below to watch Silicon Valley clip of the Not Hotdog app:
+Click below to watch the Silicon Valley clip of the Not Hotdog app:
 
 [![Not Hotdog](http://img.youtube.com/vi/ACmydtFDTGs/0.jpg)](https://www.youtube.com/watch?v=ACmydtFDTGs)
 
@@ -26,7 +26,7 @@ Click below to watch Silicon Valley clip of the Not Hotdog app:
 
 Here's a GIF of how the app works:
 
-<img src="https://github.com/py415/app-resources/blob/master/ios/ios-seefood.gif" width=250>
+<img src="https://raw.githubusercontent.com/py415/app-resources/master/ios/ios-seefood.gif" width="250" />
 
 ## Credits
 
