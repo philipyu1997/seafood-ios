@@ -1,10 +1,10 @@
 # 🐙 SeeFood
 
 ## 📋 Table of Contents
-1. [Overview](#Overview)
-2. [Product Specs](#Product-Specs)
-3. [App Walkthrough](#App-Walkthrough)
-4. [Credits](#Credits)
+1. [Overview](#-Overview)
+2. [Product Specs](#-Product-Specs)
+3. [App Walkthrough](#-App-Walkthrough)
+4. [Credits](#-Credits)
 
 ## 👀 Overview
 ### Description
